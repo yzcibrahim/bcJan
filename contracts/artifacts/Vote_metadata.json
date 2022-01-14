@@ -4,102 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "Candidates",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "votedAddress",
-						"type": "address"
-					}
-				],
-				"name": "GetVoteOfAddress",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "TopThree",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "numOfVotes",
-						"type": "uint256"
-					},
-					{
-						"internalType": "address",
-						"name": "addr",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "Votes",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "votedAddress",
-						"type": "address"
-					}
-				],
-				"name": "vote",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -113,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Vote.sol": "Vote"
+			"contracts/BankSample.sol": "Vote"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -127,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Vote.sol": {
-			"keccak256": "0x6fb7be97603b4582c73f33d8fe4a8c0113f226f5e4630ea6c37b0b0911fc6edf",
+		"contracts/BankSample.sol": {
+			"keccak256": "0x18791604f8f31c33496347dbaeaaf2c6c2cbcd8af07eed50fe1a4c42b58caab7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://1df176d0b5d8ea741184ec84bd2d6782035825b02fd45cf6ea9100b30bbd3b89",
-				"dweb:/ipfs/Qmdf7c44WcPzqF8zxCMRk9tFzNdbkNsSJnRfgQHNHChnxc"
+				"bzz-raw://740450fc02468995112b8672b2d999a8fddd1a9f26555cd66a9e55227cc6364c",
+				"dweb:/ipfs/QmWawCvXNdv6griuBeCmxnUdKAXaqLX1VE69vmBgpFBjjy"
 			]
 		}
 	},
