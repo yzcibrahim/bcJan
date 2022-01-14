@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "balanceReceived",
 				"outputs": [
 					{
@@ -59,9 +64,48 @@
 			},
 			{
 				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "paused",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "receiveMoney",
 				"outputs": [],
 				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_paused",
+						"type": "bool"
+					}
+				],
+				"name": "setPaused",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -113,10 +157,11 @@
 	},
 	"sources": {
 		"contracts/SendMoneyExample.sol": {
-			"keccak256": "0x984b5dd14a47d6dcc9f99ecb20a87f8c825b4df9354365136ec797fe0578e95b",
+			"keccak256": "0x276816c593d9b888f07e38f6d85b1edd5f829ceffb5c7b99b58c82f52abc5720",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://061e9434ac4c3365081f4c05e5fa79a99d3af9c07e650194ee9670196da48380",
-				"dweb:/ipfs/QmZnc43pBieJCqFSDgjqgq3t7hsyj1AYMx2XgZdzo7LEhd"
+				"bzz-raw://63b1599d17446116e84f8c44c27274d92acf7236fcf3b6ff9c0f2e411b775938",
+				"dweb:/ipfs/QmWyBYr9TDwxiMxQZKSpwKHV5f8VrKuwm2uez1Zt4xtk8t"
 			]
 		}
 	},
