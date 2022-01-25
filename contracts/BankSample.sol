@@ -5,6 +5,8 @@ contract Bank{
     mapping(address => uint) public balances;
     address public owner;
 
+    
+
     constructor()
     {
         owner=msg.sender;

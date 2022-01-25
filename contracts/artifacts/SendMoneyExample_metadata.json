@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.11+commit.d7f03943"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -157,11 +157,11 @@
 	},
 	"sources": {
 		"contracts/SendMoneyExample.sol": {
-			"keccak256": "0x276816c593d9b888f07e38f6d85b1edd5f829ceffb5c7b99b58c82f52abc5720",
+			"keccak256": "0x90e2397a9cd35aab2c24514366d497f417f89d044d8ebc3f88dfb81b2f9c38c3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://63b1599d17446116e84f8c44c27274d92acf7236fcf3b6ff9c0f2e411b775938",
-				"dweb:/ipfs/QmWyBYr9TDwxiMxQZKSpwKHV5f8VrKuwm2uez1Zt4xtk8t"
+				"bzz-raw://c711eb64b3e3ab081ada9b35c141c0c982326e06b1d58fe01c718ca73b6b216e",
+				"dweb:/ipfs/QmT912N1LMvcP52nsvDXfxXtVe3Fb1sHSN1U7iamSYdxMw"
 			]
 		}
 	},

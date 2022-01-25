@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.11+commit.d7f03943"
+		"version": "0.8.7+commit.e28d00a7"
 	},
 	"language": "Solidity",
 	"output": {
@@ -122,11 +122,11 @@
 	},
 	"sources": {
 		"contracts/BankSample.sol": {
-			"keccak256": "0x664d436e7a1d5f666431e07afa31f25deeeee909084ff0b9ec8e500f5913cfce",
+			"keccak256": "0xe9e0bf9b441c3647fa7e5c8419f7ac193c3a062bb190215e11ba14e199331d71",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5c9bbd5d05346f1073ed0974cdbf78ac2716e7e9fa5ad687f6b55dda1ad08abe",
-				"dweb:/ipfs/QmWXmRaWDSjDvMdeAmJxmQ2vysCC5jhu8vQyd7d2PY5A6U"
+				"bzz-raw://dd7042024c5020da4332f2e9e56922875f126089981fe48add04887122fa14b1",
+				"dweb:/ipfs/QmW5vYxXHDJi8kz5Vg2Hn43J5RWR5ZPfT81CpECdJwuyh8"
 			]
 		}
 	},
