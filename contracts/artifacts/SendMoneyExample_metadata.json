@@ -11,6 +11,25 @@
 				"type": "constructor"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "oldOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnerSet",
+				"type": "event"
+			},
+			{
 				"inputs": [],
 				"name": "balanceReceived",
 				"outputs": [
@@ -21,6 +40,19 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -44,6 +76,19 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -131,7 +176,20 @@
 		],
 		"devdoc": {
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"changeOwner(address)": {
+					"details": "Change owner",
+					"params": {
+						"newOwner": "address of new owner"
+					}
+				},
+				"getOwner()": {
+					"details": "Return owner address ",
+					"returns": {
+						"_0": "address of owner"
+					}
+				}
+			},
 			"version": 1
 		},
 		"userdoc": {
@@ -156,12 +214,20 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SendMoneyExample.sol": {
-			"keccak256": "0x90e2397a9cd35aab2c24514366d497f417f89d044d8ebc3f88dfb81b2f9c38c3",
+		"contracts/2_Owner.sol": {
+			"keccak256": "0x1e624ada939528fff73575187024d951aa6d33d4cbaad97ecf1f3e2a7d717583",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c711eb64b3e3ab081ada9b35c141c0c982326e06b1d58fe01c718ca73b6b216e",
-				"dweb:/ipfs/QmT912N1LMvcP52nsvDXfxXtVe3Fb1sHSN1U7iamSYdxMw"
+				"bzz-raw://e3f3c6ab93acd1a8bd389f852149d59b6d713efc51458ff95bba42c3329fb0d1",
+				"dweb:/ipfs/QmP7NEPrSbYRM4DzpJ31YUC2KNXUX4USuQk3jMNRUdzVyV"
+			]
+		},
+		"contracts/SendMoneyExample.sol": {
+			"keccak256": "0x2594dbc4f5c3fb972d54b46f02aff9c98c0f61223766e31abfe4627388ee84b3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7525d6ebbbdadf7c672bd81b759cc0bd8d98accbd51241c8a0c5716d1ad0fc40",
+				"dweb:/ipfs/QmWjHsbfv7WcxZQxDM8BE1anosVJimzCdj76Zy9Y4jeBCf"
 			]
 		}
 	},
